@@ -9,7 +9,7 @@ nav {
     display: flex;
     justify-content: baseline;
     align-items: center;
-    padding: 1em;
+    padding: 0 1em;
 }
 
 .nav-img{
@@ -29,14 +29,103 @@ nav {
 .nav-home,
 .nav-about{
     text-transform: uppercase;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 0.75em;
 }
 
-.card-title{
-    background-image: url(/images/card-img.png);
-    background-size:;
+.hero-card{
+    background-image: url(/images/hero-img.png);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
     color: white;
-    padding: 1.5rem;
+    padding: 5rem 1.5rem 1rem;
+}
+
+.hero-date{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 0.75rem;
+}
+
+.hero-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.blog-card{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1.5rem 0.5rem;
+}
+
+.blog-date{
+    text-transform: uppercase;
+    font-size: 1.125em;
+    margin-top: 0.8rem;
+}
+
+.blog-title{
+    margin: 0 0 0.5rem;
+    font-size: 1.5em;
+}
+
+.blog-body{
+    margin: 0;
+}
+
+.blog-container{
+    padding: 0 0 2rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 2rem;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.btn:focus{
+    background-color: rgb(182, 173, 173);
+    border-radius:  5px;
+    outline: 0;
+}
+
+.hide {display: none;}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    background: #202020;
+}
+
+.footer-title,
+.footer-copy{
+    margin:0;
+    
+}
+
+.footer-title{
+    font-weight: 700;
+    color: #ECECEC;
+    font-size: 0.75rem;
+}
+
+.footer-copy{
+    font-weight: 400;
+    margin-top: 0.2rem;
+    color: #D7D7D7;
+ 
+    font-size: 0.8rem;
 }
