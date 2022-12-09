@@ -2,4 +2,33 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    padding: 1em;
+}
+
+.nav-img{
+    margin-right: 0.2em;
+}
+
+.nav-title{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-home{
+    margin-left: auto;
+    margin-right: 2em;
+}
+
+.nav-home,
+.nav-about{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
 }
